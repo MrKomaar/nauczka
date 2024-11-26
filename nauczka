@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nauczka - Platforma Kursów Online</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 1rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #4CAF50;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        .main-content {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            color: #4CAF50;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        .section p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer p {
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nauczka - Platforma Kursów Online</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Kursy</a>
+        <a href="#">Twórcy</a>
+        <a href="#">Kontakt</a>
+    </nav>
+    <div class="container">
+        <div class="main-content">
+            <div class="section">
+                <h2>Dla Uczniów</h2>
+                <p>Znajdź Kursy dla Siebie: Odkrywaj szeroką gamę kursów dostosowanych do Twoich potrzeb – od programowania i marketingu, przez fotografię i gotowanie, aż po fitness i zdrowie.</p>
+                <p>Ucz się We Własnym Tempie: Nasze kursy są dostępne online 24/7, więc możesz uczyć się kiedy chcesz i gdzie chcesz.</p>
+                <p>Zdobądź Certyfikaty: Ukończ kursy i zdobądź certyfikaty, które potwierdzą Twoje umiejętności i zwiększą Twoje szanse na rynku pracy.</p>
+            </div>
+            <div class="section">
+                <h2>Dla Twórców Kursów</h2>
+                <p>Twórz i Publikuj: Użyj naszych prostych narzędzi do tworzenia kursów, dodawaj wideo, e-booki, quizy i inne materiały.</p>
+                <p>Zarabiaj: Sprzedawaj swoje kursy globalnej publiczności i zarabiaj na swojej wiedzy i pasji.</p>
+                <p>Buduj Społeczność: Interakcja z uczniami za pomocą forów dyskusyjnych, sesji Q&A i webinarów na żywo.</p>
+            </div>
+            <div class="section">
+                <h2>Jak To Działa?</h2>
+                <p>Zarejestruj się: Stwórz konto jako uczeń lub twórca kursów.</p>
+                <p>Twórz i Ucz się: Publikuj swoje kursy lub znajdź kursy, które Cię interesują.</p>
+                <p>Ucz się i Zarabiaj: Ukończ kursy i zdobądź certyfikaty lub zarabiaj na swoich kursach.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Zaufali Nam: Setki ekspertów i tysiące uczniów już korzystają z Nauczki. Dołącz do nas i zobacz, jak Nauczka może pomóc Ci osiągnąć Twoje cele edukacyjne i zawodowe.</p>
+        <p>Kontakt: kontakt@nauczka.com</p>
+    </footer>
+</body>
+</html>
